@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1466651866 source:/home/shay/a/grangar/Desktop/ECE264/HW2/PA02/pa02.c
+	<stdio.h>
+	<string.h>
+	"answer02.h"
+
+1466652484 /home/shay/a/grangar/Desktop/ECE264/HW2/PA02/answer02.h
+	<stdlib.h>
+
+1467012770 source:/home/shay/a/grangar/Desktop/ECE264/HW2/PA02/answer02.c
+	<stdio.h>
+	<stdlib.h>
+

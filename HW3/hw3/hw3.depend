@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1467069631 source:/home/shay/a/grangar/Desktop/ECE264/HW3/hw3/06_16/example02.c
+	<stdio.h>
+	<stdlib.h>
+
+1466257462 source:/home/shay/a/grangar/Desktop/ECE264/HW3/hw3/06_16/example03.c
+	<stdio.h>
+	<stdlib.h>
+
+1467068923 source:/home/shay/a/grangar/Desktop/ECE264/HW3/hw3/06_16/example01.c
+	<stdio.h>
+	<stdlib.h>
+
+1467082038 source:/home/shay/a/grangar/Desktop/ECE264/HW3/hw3/main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

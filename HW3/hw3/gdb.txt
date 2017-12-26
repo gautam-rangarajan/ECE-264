@@ -1,0 +1,11 @@
+Breakpoint 1 at 0x400ea9: file main.c, line 47.
+Starting program: /home/shay/a/grangar/Desktop/ECE264/HW3/hw3/answer03 
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffe638) at main.c:47
+47	    printf("Before swap, str1 == %p (i.e., '%s'), "
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.192.el6.x86_64
+A debugging session is active.
+
+	Inferior 1 [process 2395] will be killed.
+
+Quit anyway? (y or n) 

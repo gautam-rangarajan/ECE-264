@@ -1,0 +1,71 @@
+==25644== Memcheck, a memory error detector
+==25644== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==25644== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==25644== Command: /tmp/.X8XQBS/a.out 1 123456789ABCDEF- U
+==25644== Parent PID: 25643
+==25644== 
+--25644-- 
+--25644-- Valgrind options:
+--25644--    --tool=memcheck
+--25644--    --leak-check=full
+--25644--    --verbose
+--25644--    --log-file=/tmp/.X8XQBS/tmpf
+--25644-- Contents of /proc/version:
+--25644--   Linux version 2.6.32-642.3.1.el6.x86_64 (mockbuild@x86-029.build.eng.bos.redhat.com) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-17) (GCC) ) #1 SMP Sun Jun 26 18:16:44 EDT 2016
+--25644-- Arch and hwcaps: AMD64, amd64-sse3-cx16-lzcnt-avx2-bmi
+--25644-- Page sizes: currently 4096, max supported 4096
+--25644-- Valgrind library directory: /usr/lib64/valgrind
+--25644-- Reading syms from /tmp/.X8XQBS/a.out
+--25644-- Reading syms from /usr/lib64/valgrind/memcheck-amd64-linux
+--25644--    object doesn't have a dynamic symbol table
+--25644-- Reading syms from /lib64/ld-2.12.so
+--25644-- Scheduler: using generic scheduler lock implementation.
+--25644-- Reading suppressions file: /usr/lib64/valgrind/default.supp
+==25644== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-25644-by-grangar-on-ee207lnx03.ecn.purdue.edu
+==25644== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-25644-by-grangar-on-ee207lnx03.ecn.purdue.edu
+==25644== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-25644-by-grangar-on-ee207lnx03.ecn.purdue.edu
+==25644== 
+==25644== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==25644== don't want to do, unless you know exactly what you're doing,
+==25644== or are doing some strange experiment):
+==25644==   /usr/lib64/valgrind/../../bin/vgdb --pid=25644 ...command...
+==25644== 
+==25644== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==25644==   /path/to/gdb /tmp/.X8XQBS/a.out
+==25644== and then give GDB the following command
+==25644==   target remote | /usr/lib64/valgrind/../../bin/vgdb --pid=25644
+==25644== --pid is optional if only one valgrind process is running
+==25644== 
+--25644-- REDIR: 0x3f13017d10 (strlen) redirected to 0x38049551 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--25644-- Reading syms from /usr/lib64/valgrind/vgpreload_core-amd64-linux.so
+--25644-- Reading syms from /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so
+--25644-- REDIR: 0x3f13017b20 (index) redirected to 0x4a07c30 (index)
+--25644-- REDIR: 0x3f13017ba0 (strcmp) redirected to 0x4a08570 (strcmp)
+--25644-- Reading syms from /lib64/libc-2.12.so
+--25644-- REDIR: 0x3f13884e60 (strcasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f13887120 (strncasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f13882dd0 (__GI_strrchr) redirected to 0x4a07ab0 (__GI_strrchr)
+--25644-- REDIR: 0x3f138812b0 (strlen) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f138812f0 (__GI_strlen) redirected to 0x4a07fb0 (__GI_strlen)
+--25644-- REDIR: 0x3f13880d00 (strcpy) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f13880d30 (__GI_strcpy) redirected to 0x4a080a0 (__GI_strcpy)
+--25644-- REDIR: 0x3f13884690 (mempcpy) redirected to 0x4a0a020 (mempcpy)
+--25644-- REDIR: 0x3f13889800 (memcpy) redirected to 0x4a08b60 (memcpy)
+--25644-- REDIR: 0x3f1387ba00 (free) redirected to 0x4a063a9 (free)
+--25644-- REDIR: 0x3f1387f870 (strcmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f1387f8b0 (__GI_strcmp) redirected to 0x4a08520 (__GI_strcmp)
+--25644-- REDIR: 0x3f1387f7c0 (index) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--25644-- REDIR: 0x3f1387f7f0 (__GI_strchr) redirected to 0x4a07b70 (__GI_strchr)
+==25644== 
+==25644== HEAP SUMMARY:
+==25644==     in use at exit: 0 bytes in 0 blocks
+==25644==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==25644== 
+==25644== All heap blocks were freed -- no leaks are possible
+==25644== 
+==25644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+--25644-- 
+--25644-- used_suppression:      4 U1004-ARM-_dl_relocate_object
+--25644-- used_suppression:      2 glibc-2.5.x-on-SUSE-10.2-(PPC)-2a
+==25644== 
+==25644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
